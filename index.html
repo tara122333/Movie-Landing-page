@@ -1,86 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div class="container">
         <div class="left">
-            <div class="logo">
-                <a href="#">
-                    <i class="fa-solid fa-house"></i> 
-                    <span>Home</span>
-                </a>
-            </div>
-            <div>
-                <ul class="left-list">
-                    <li class="list-item">
-                        <a href="#" class="list-link">
-                            <i class="fa-solid fa-house"></i> Home
-                        </a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">
-                            <i class="fa-solid fa-house"></i> Community
-                        </a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">
-                            <i class="fa-solid fa-house"></i> Discovery
-                        </a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">
-                            <i class="fa-solid fa-house"></i> Comming soon
-                        </a>
-                    </li>
-                </ul>
-                <ul class="left-list">
-                    <li class="list-item">
-                        <a href="#" class="list-link">
-                            <i class="fa-solid fa-house"></i> Friends
-                        </a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">
-                            <i class="fa-solid fa-house"></i> Parties
-                        </a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">
-                            <i class="fa-solid fa-house"></i> Media
-                        </a>
-                    </li>
-                </ul>
-                <ul class="left-list">
-                    <li class="list-item">
-                        <a href="#" class="list-link">
-                            <i class="fa-solid fa-house"></i> Setting
-                        </a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">
-                            <i class="fa-solid fa-house"></i> Log Out
-                        </a>
-                    </li>
-                </ul>
+            <div class="left-main">
+                <div class="logo">
+                    <a href="#">
+                        <i class="fa-solid fa-compact-disc"></i>
+                        <span>Exxmon.</span>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="left-list-section">
+                        <span class="title">Menu</span>
+                        <ul class="left-list">
+                            <li class="list-item" id="active-list">
+                                <a href="#">
+                                    <i class="fa-solid fa-house"></i>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">
+                                    <i class="fa-solid fa-comments"></i>
+                                    <span>Community</span>
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">
+                                    <i class="fa-regular fa-compass"></i>
+                                    <span>Discovery</span>
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">
+                                    <i class="fa-solid fa-stopwatch"></i>
+                                    <span>Comming soon</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="left-list-section">
+                        <span class="title">SOCIAL</span>
+                        <ul class="left-list">
+                            <li class="list-item">
+                                <a href="#">
+                                    <i class="fa-regular fa-user"></i>
+                                    <span>Friends</span>
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">
+                                    <i class="fa-solid fa-champagne-glasses"></i>
+                                    <span>Parties</span>
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">
+                                    <i class="fa-solid fa-compact-disc"></i>
+                                    <span>Media</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="left-list-section">
+                        <span class="title">GENERAL</span>
+                        <ul class="left-list">
+                            <li class="list-item">
+                                <a href="#">
+                                    <i class="fa-solid fa-gear"></i>
+                                    <span>Setting</span>
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">
+                                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                    <span>Log Out</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    
+
         <div class="mid">
             <div></div>
             <div></div>
             <div></div>
         </div>
         <div class="right">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="right-main">
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                        <input type="text" placeholder="Search.." name="search">
+                    </form>
+                </div>
+                <div class="right-movies-section">
+                    <div class="right-movies">
+                        <span class="right-movies-heading">Popular Movies</span>
+                        <div class="right-movies-poster">
+                            <img src="https://e1.pxfuel.com/desktop-wallpaper/523/685/desktop-wallpaper-john-wick-iphone-john-wick-thumbnail.jpg"
+                                alt="" class="right-movies-poster-img">
+                            <div class="right-movies-desc">
+                                <div class="right-movies-desc-top">
+                                    <span class="right-movies-desc-top-head">John Wick</span>
+                                    <span class="right-movies-desc-top-des">Action, Honer</span>
+                                </div>
+                                <div class="right-movies-desc-down">
+                                    <img src="https://i.ibb.co/dGfK1Jc/613f661716381700041030fc.png" alt=""
+                                        class="right-movies-desc-down-img">
+                                    <span>7.4</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-movies-poster">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_YAq70GUfY6wDnMVtbZ4HrVdpET1QRx5qQtWgrN4&s"
+                                alt="" class="right-movies-poster-img">
+                            <div class="right-movies-desc">
+                                <div class="right-movies-desc-top">
+                                    <span class="right-movies-desc-top-head">Mad Max</span>
+                                    <span class="right-movies-desc-top-des">Action, Advanture</span>
+                                </div>
+                                <div class="right-movies-desc-down">
+                                    <img src="https://i.ibb.co/dGfK1Jc/613f661716381700041030fc.png" alt=""
+                                        class="right-movies-desc-down-img">
+                                    <span>8.1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-movies-poster">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/1/1c/IpMan2Poster.jpg" alt=""
+                                class="right-movies-poster-img">
+                            <div class="right-movies-desc">
+                                <div class="right-movies-desc-top">
+                                    <span class="right-movies-desc-top-head">Ip Man 2</span>
+                                    <span class="right-movies-desc-top-des">Action, Bioph.</span>
+                                </div>
+                                <div class="right-movies-desc-down">
+                                    <img src="https://i.ibb.co/dGfK1Jc/613f661716381700041030fc.png" alt=""
+                                        class="right-movies-desc-down-img">
+                                    <span>7.2</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-movies-button">
+                            See More
+                        </div>
+                    </div>
+                    <div class="right-movies">
+                        <span class="right-movies-heading">Favorites</span>
+                        <div class="right-movies-poster">
+                            <img src="https://m.media-amazon.com/images/I/81mSs1DTmML._AC_UF894,1000_QL80_.jpg" alt=""
+                                class="right-movies-poster-img">
+                            <div class="right-movies-desc">
+                                <div class="right-movies-desc-top">
+                                    <span class="right-movies-desc-top-head">Hobbit 1</span>
+                                    <span class="right-movies-desc-top-des">Adventure, Fantasy</span>
+                                </div>
+                                <div class="right-movies-desc-down">
+                                    <img src="https://i.ibb.co/dGfK1Jc/613f661716381700041030fc.png" alt=""
+                                        class="right-movies-desc-down-img">
+                                    <span>7.8</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-movies-poster">
+                            <img src="https://resizing.flixster.com/vYsn-bvQtSrZJ3e_4nAdmkG89hA=/206x305/v2/https://flxt.tmsimg.com/assets/p170977_p_v7_ae.jpg"
+                                alt="" class="right-movies-poster-img">
+                            <div class="right-movies-desc">
+                                <div class="right-movies-desc-top">
+                                    <span class="right-movies-desc-top-head">I am Legend</span>
+                                    <span class="right-movies-desc-top-des">Action, Honer</span>
+                                </div>
+                                <div class="right-movies-desc-down">
+                                    <img src="https://i.ibb.co/dGfK1Jc/613f661716381700041030fc.png" alt=""
+                                        class="right-movies-desc-down-img">
+                                    <span>7.2</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-movies-poster">
+                            <img src="https://i.pinimg.com/originals/29/a8/20/29a82067b71bd9e3df95e1c0ba5c4daf.jpg"
+                                alt="" class="right-movies-poster-img">
+                            <div class="right-movies-desc">
+                                <div class="right-movies-desc-top">
+                                    <span class="right-movies-desc-top-head">Avatar</span>
+                                    <span class="right-movies-desc-top-des">Action, Fantasy</span>
+                                </div>
+                                <div class="right-movies-desc-down">
+                                    <img src="https://i.ibb.co/dGfK1Jc/613f661716381700041030fc.png" alt=""
+                                        class="right-movies-desc-down-img">
+                                    <span>7.8</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-movies-button">
+                            See More
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
